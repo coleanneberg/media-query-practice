@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 500px)  {
+  body {
+    font-family: sans-serif;
+    color: violet;
+}
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    font-variant: small-caps;
+    border: 10px solid green;
+  }
+}
